@@ -1,15 +1,20 @@
+.body {
+    margin: 0;
+}
 .header {
     display: flex;
    justify-content: space-between;
    height: 84px;
    align-items: center;
-   padding-left: 150px;
+   padding: 0 150px;
+   padding-top: 8px;
+   padding-bottom: 8px;
 }
 .menu-btn {
     display: flex;
     gap: 60px;
     align-items: center;
-    padding-right: 150px;
+    padding-bottom: 8px;
     
 
 }
@@ -23,14 +28,22 @@
   
    
 }
-.contact-us {
-    background-color:#020E35;
+.CONTACT-US {
+    background-color:#020e35;
     color:#FFFFFF;
-    width:16px;
+    gap: 4px;
+    padding: 24px 40px;
+
 
 }
 .merriweather-regular {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
+}
+.HOME{
+    text-decoration:underline #FF5678;
+    text-underline-offset: 4px;
+    
+
 }
