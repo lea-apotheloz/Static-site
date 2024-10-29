@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+   justify-content: space-between;
+   height: 84px;
+   align-items: center;
+   padding-left: 150px;
+}
+.menu-btn {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-right: 150px;
+    
+
+}
+
+.nav-menu {
+    display: flex;
+   gap: 60px;
+   align-items: center;
+   padding: 8px;
+   
+  
+   
+}
+.contact-us {
+    background-color:#020E35;
+    color:#FFFFFF;
+    width:16px;
+
+}
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
