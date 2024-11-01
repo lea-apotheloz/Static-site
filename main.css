@@ -1,4 +1,8 @@
+/* navigation Bar*/
 .body {
+    margin: 0;
+}
+p {
     margin: 0;
 }
 .header {
@@ -10,24 +14,18 @@
    padding-top: 8px;
    padding-bottom: 8px;
    box-shadow: 0px 8px 20px 5px rgba(0,0,0,0.08);
-
 }
 .menu-btn {
     display: flex;
     gap: 60px;
     align-items: center;
     padding-bottom: 8px;
-
 }
-
 .nav-menu {
     display: flex;
    gap: 60px;
    align-items: center;
-   padding: 8px;
-   
-  
-   
+   padding: 8px; 
 }
 .CONTACT-US {
     display: flex;
@@ -41,8 +39,6 @@
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
-
-
 }
 .merriweather-regular {
     font-family: "Merriweather", serif;
@@ -52,6 +48,49 @@
 .HOME{
     text-decoration:underline #FF5678;
     text-underline-offset: 4px;
-    
+}
 
+
+/*Home page header*/
+.Hero-section {
+    display: flex;
+    padding: 0 150px;
+    padding-top: 300px;
+    justify-content: space-between; 
+}
+.headline {
+    width: 548px;
+    height: 330px;
+}
+.heading {
+    display: flex;
+    gap: 56px;
+    flex-direction: column; 
+}
+.texte {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    line-height: 110px;
+    font-size: 76px;
+}
+mark {
+    background-color: #FF5678;
+    color: #FFFFFF;
+}
+.See-our-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#020e35;
+    color:#FFFFFF;
+    height: 71px;
+    width: 197px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0px 20px 40px 5px #00000040;
+}
+.ice-tea {
+width: 592px;
+height: 508px;
 }
