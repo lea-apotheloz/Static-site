@@ -9,13 +9,14 @@
    padding: 0 150px;
    padding-top: 8px;
    padding-bottom: 8px;
+   box-shadow: 0px 8px 20px 5px rgba(0,0,0,0.08);
+
 }
 .menu-btn {
     display: flex;
     gap: 60px;
     align-items: center;
     padding-bottom: 8px;
-    
 
 }
 
@@ -29,10 +30,17 @@
    
 }
 .CONTACT-US {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#020e35;
     color:#FFFFFF;
     gap: 4px;
-    padding: 24px 40px;
+    height: 68px;
+    width: 185px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
 
 
 }
