@@ -66,6 +66,8 @@ p {
     display: flex;
     gap: 56px;
     flex-direction: column; 
+    padding-bottom: 251px;
+
 }
 .texte {
     font-family: "Merriweather", serif;
@@ -91,6 +93,66 @@ mark {
     box-shadow: 0px 20px 40px 5px #00000040;
 }
 .ice-tea {
-width: 592px;
-height: 508px;
+    width: 592px;
+    height: 508px;
+}
+/*powered By*/
+.powered-by {
+    display: flex;
+    justify-content: space-between;
+    height: 708px;
+    padding-top: 100px;
+}
+.image {
+    padding: 0 150px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 517px;
+    height: 435px;
+    gap: 60px;
+    padding: 0 150px; 
+}
+.text {
+    height: 304px;
+    gap: 42px;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    width: 428px;
+    height: 124px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    background: linear-gradient(to bottom, transparent 96.5px, #FF5678 0);
+}
+.text-2 {
+   
+    width: 517px;
+    height: 138px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#020e35;
+    color:#FFFFFF;
+    height: 71px;
+    width: 185px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0px 20px 40px 5px #00000040; 
+}
+.Btn {
+   gap: 63px;
+display: flex;
 }
