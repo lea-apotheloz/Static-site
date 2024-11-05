@@ -63,6 +63,7 @@ p {
     display: flex;
     padding: 0 150px;
     padding-top: 300px;
+    height: 708px;
     justify-content: space-between;
 }
 
@@ -114,21 +115,14 @@ mark {
 .powered-by {
     display: flex;
     justify-content: space-between;
-    height: 708px;
-    padding-top: 100px;
+    padding: 100px 150px;
 }
-
-.image {
-    padding: 0 150px;
-}
-
 .content {
     display: flex;
     flex-direction: column;
     width: 517px;
     height: 435px;
     gap: 60px;
-    padding: 0 150px;
 }
 
 .text {
@@ -179,26 +173,17 @@ mark {
 }
 
 /*things we enjoy */
-illustration {
-    padding: 4 4px;
-    position: relative;
-}
-
-illustration::before {
-    width: 780px;
-    height: 670px;
-    gap: 4px;
-    border-radius: 1000px;
-    background: #FFEEF6;
-
-    
+.cercle {
+    position: absolute;
+    top: 1987.05px;
+    left: 0%;
+    z-index: -1;
 }
 .Thing-we-enjoy {
     display: flex;
     align-items: center;
-    height: 792px;
     justify-content: space-between;
-    padding: 100 150px;
+    padding: 100px 150px;
 }
 .left-side{
     display: flex;
@@ -206,7 +191,6 @@ illustration::before {
     width: 545px;
     height: 592px;
     gap: 120px;
-    padding: 0 150px;
 }
 .titre {
     display: flex;
@@ -272,7 +256,6 @@ illustration::before {
     text-align: left;
 }
 .right-side {
-   padding: 0 150px;
    display: flex;
    flex-direction: column;
     width: 543px;
