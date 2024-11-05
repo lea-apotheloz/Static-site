@@ -273,3 +273,43 @@ mark {
     -webkit-text-stroke: 1px #020E35;
     -webkit-text-fill-color: white;
 }
+.craft-experience {
+    display: flex;
+    justify-content: space-between;
+    height: 870px;
+    padding: 100px 150px;
+}
+.block {
+    height: 503px;
+    width: 664px;
+    gap: 60px;
+}
+.title-craft {
+    margin-bottom: 60px;
+    width: 664px;
+    height: 216px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+    position: relative;
+    display: inline-block;
+}
+.texte-craft{
+    margin-bottom: 60px;
+    width: 481px;
+    height: 96px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.title-craft::before{
+    content: "";
+    position: absolute;
+    width: 406px;
+    height: 34px;
+    z-index: -1;
+    background-color: #FF5678;
+    top: 181px;
+}
