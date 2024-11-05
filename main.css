@@ -57,13 +57,12 @@ p {
     text-underline-offset: 4px;
 }
 
-
 /*Home page header*/
+
 .Hero-section {
     display: flex;
     padding: 0 150px;
     padding-top: 300px;
-    height: 708px;
     justify-content: space-between;
 }
 
@@ -117,6 +116,7 @@ mark {
     justify-content: space-between;
     padding: 100px 150px;
 }
+
 .content {
     display: flex;
     flex-direction: column;
@@ -144,7 +144,6 @@ mark {
 }
 
 .text-2 {
-
     width: 517px;
     height: 138px;
     font-family: "Merriweather", serif;
@@ -179,12 +178,14 @@ mark {
     left: 0%;
     z-index: -1;
 }
+
 .Thing-we-enjoy {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 100px 150px;
 }
+
 .left-side{
     display: flex;
     flex-direction: column;
@@ -192,6 +193,7 @@ mark {
     height: 592px;
     gap: 120px;
 }
+
 .titre {
     display: flex;
     flex-direction: column;
@@ -203,6 +205,7 @@ mark {
     line-height: 62px;
     background: linear-gradient(to bottom, transparent 50%, #FF5678 0);
 }
+
 .bullet-point {
     display: flex;
     flex-direction: column;
@@ -210,13 +213,14 @@ mark {
     height: 410px;
     gap: 40px;
 }
+
 .point {
     display: flex;
-    
     width: 544px;
     height: 110px;
     gap: 40px;
 }
+
 .numero{
     width: 83px;
     height: 72px;
@@ -229,6 +233,7 @@ mark {
     -webkit-text-fill-color: white;
     content: 0;
 }
+
 .text-block {
     display: flex;
     flex-direction: column;
@@ -237,6 +242,7 @@ mark {
     padding-top: 8px;
     gap: 20px;
 }
+
 .sous-titre {
     width: 431px;
     height: 36px;
@@ -246,6 +252,7 @@ mark {
     line-height: 36px;
     text-align: left;
 }
+
 .explication {
     width: 421px;
     height: 46px;
@@ -255,6 +262,7 @@ mark {
     line-height: 23px;
     text-align: left;
 }
+
 .right-side {
    display: flex;
    flex-direction: column;
@@ -262,6 +270,7 @@ mark {
     height: 410px;
     gap: 40px;
 }
+
 .numero-right {
     width: 70px;
     height: 72px;
@@ -273,17 +282,19 @@ mark {
     -webkit-text-stroke: 1px #020E35;
     -webkit-text-fill-color: white;
 }
+
 /*craft experience*/
 .craft-experience {
     display: flex;
     justify-content: space-between;
-    height: 870px;
     padding: 100px 150px;
 }
+
 .block {
     height: 503px;
     width: 664px;
 }
+
 .title-craft {
     margin-bottom: 60px;
     width: 664px;
@@ -295,6 +306,7 @@ mark {
     position: relative;
     display: inline-block;
 }
+
 .texte-craft{
     margin-bottom: 60px;
     width: 481px;
@@ -304,6 +316,7 @@ mark {
     font-size: 18px;
     line-height: 32px;
 }
+
 .title-craft::before{
     content: "";
     position: absolute;
@@ -313,15 +326,17 @@ mark {
     background-color: #FF5678;
     top: 181px;
 }
+
 .carft-picture{
     height: 670px;
     width: 780px;
 }
+
 /* meet the team*/
 .our-work {
-    height: 1485px;
     padding: 100px 150px;
 }
+
 .meet-the-team{
     margin-bottom: 104px;
     margin-left: 758px;
@@ -335,6 +350,7 @@ mark {
     position: relative;
     display: inline-block;
 }
+
 .meet-the-team::before{
     content: "";
     position: absolute;
@@ -344,6 +360,7 @@ mark {
     background-color: #FF5678;
     top: 40px;
 }
+
 .grid{
     width: 1620px;
     height: 1109px;
@@ -352,6 +369,7 @@ mark {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
 .cases{
     display: flex;
     flex-direction: column;
@@ -378,12 +396,8 @@ mark {
     text-align: left;
     display: flex;
     justify-content: center;
+}
 
-}
-.photo{
-    width: 200px;
-    height: 200px;
-}
 .sous-text{
     align-items: center;
     font-family: Merriweather;
@@ -391,9 +405,79 @@ mark {
     font-weight: 400;
     line-height: 23px;
     text-align: left;
-
 }
+
 .cases:hover {
     box-shadow: 0px 20px 40px 5px #00000026;
     transform: scale(1.1);
+  }
+
+  /* some of our previous work*/
+  .previous-work{
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .some-of-our-previous-work{
+    width: 743px;
+    height: 72px;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+  }
+  .some-of-our-previous-work::before{
+    content: "";
+    position: absolute;
+    width: 416px;
+    height: 30px;
+    z-index: -1;
+    background-color: #FF5678;
+    margin-top: 40px;
+    margin-left: 338px;
+  }
+  .slide-menu{
+    height: 44px;
+    width: 536px;
+    display: flex;
+    align-items: center;
+  }
+  .all{
+    margin-right: 60px;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
+  }
+  .Illustration{
+    margin-right: 60px;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
+  }
+  .app{
+    margin-right: 60px;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
+  }
+  .branding{
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
   }
