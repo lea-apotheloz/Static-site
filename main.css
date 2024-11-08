@@ -186,7 +186,7 @@ mark {
     padding: 100px 150px;
 }
 
-.left-side{
+.left-side {
     display: flex;
     flex-direction: column;
     width: 545px;
@@ -221,7 +221,7 @@ mark {
     gap: 40px;
 }
 
-.numero{
+.numero {
     width: 83px;
     height: 72px;
     font-family: Merriweather;
@@ -264,8 +264,8 @@ mark {
 }
 
 .right-side {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
     width: 543px;
     height: 410px;
     gap: 40px;
@@ -307,7 +307,7 @@ mark {
     display: inline-block;
 }
 
-.texte-craft{
+.texte-craft {
     margin-bottom: 60px;
     width: 481px;
     height: 96px;
@@ -317,7 +317,7 @@ mark {
     line-height: 32px;
 }
 
-.title-craft::before{
+.title-craft::before {
     content: "";
     position: absolute;
     width: 406px;
@@ -327,7 +327,7 @@ mark {
     top: 181px;
 }
 
-.carft-picture{
+.carft-picture {
     height: 670px;
     width: 780px;
 }
@@ -337,7 +337,7 @@ mark {
     padding: 100px 150px;
 }
 
-.meet-the-team{
+.meet-the-team {
     margin-bottom: 104px;
     margin-left: 758px;
     width: 404px;
@@ -348,10 +348,12 @@ mark {
     line-height: 72px;
     align-items: center;
     position: relative;
-    display: inline-block;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.meet-the-team::before{
+.meet-the-team::before {
     content: "";
     position: absolute;
     width: 406px;
@@ -361,8 +363,7 @@ mark {
     top: 40px;
 }
 
-.grid{
-    width: 1620px;
+.grid {
     height: 1109px;
     gap: 32px;
     display: grid;
@@ -370,7 +371,7 @@ mark {
     grid-template-rows: 1fr 1fr;
 }
 
-.cases{
+.cases {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -381,14 +382,14 @@ mark {
     gap: 60px;
 }
 
-.text-grid{
+.text-grid {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 24px;
 }
 
-.name{
+.name {
     font-family: Merriweather;
     font-size: 28px;
     font-weight: 700;
@@ -398,7 +399,7 @@ mark {
     justify-content: center;
 }
 
-.sous-text{
+.sous-text {
     align-items: center;
     font-family: Merriweather;
     font-size: 18px;
@@ -410,18 +411,18 @@ mark {
 .cases:hover {
     box-shadow: 0px 20px 40px 5px #00000026;
     transform: scale(1.1);
-  }
+}
 
-  /* some of our previous work*/
-  .previous-work{
+/* some of our previous work*/
+.previous-work {
     padding: 100px 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 60px;
-  }
+}
 
-  .some-of-our-previous-work{
+.some-of-our-previous-work {
     width: 743px;
     height: 72px;
     font-family: Merriweather;
@@ -429,8 +430,9 @@ mark {
     font-weight: 700;
     line-height: 72px;
     text-align: left;
-  }
-  .some-of-our-previous-work::before{
+}
+
+.some-of-our-previous-work::before {
     content: "";
     position: absolute;
     width: 416px;
@@ -439,14 +441,16 @@ mark {
     background-color: #FF5678;
     margin-top: 40px;
     margin-left: 338px;
-  }
-  .slide-menu{
+}
+
+.slide-menu {
     height: 44px;
     width: 536px;
     display: flex;
     align-items: center;
-  }
-  .all{
+}
+
+.all {
     margin-right: 60px;
     font-family: Merriweather;
     font-size: 24px;
@@ -454,8 +458,9 @@ mark {
     line-height: 36px;
     text-align: left;
 
-  }
-  .Illustration{
+}
+
+.Illustration {
     margin-right: 60px;
     font-family: Merriweather;
     font-size: 24px;
@@ -463,8 +468,9 @@ mark {
     line-height: 36px;
     text-align: left;
 
-  }
-  .app{
+}
+
+.app {
     margin-right: 60px;
     font-family: Merriweather;
     font-size: 24px;
@@ -472,12 +478,59 @@ mark {
     line-height: 36px;
     text-align: left;
 
-  }
-  .branding{
+}
+
+.branding {
     font-family: Merriweather;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
     text-align: left;
 
-  }
+}
+
+.grid-block {
+    height: 1376px;
+    gap: 32px;
+    display: grid;
+    grid-template-columns: 519px 518px 519px;
+    grid-template-rows: 396.5px 243.5px 121px 519px;
+}
+
+.container-1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #FFEEF6;
+}
+
+.container-2 {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background: #FFEEF6;
+}
+
+.container-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: #FFEEF6;
+}
+
+.container-4 {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background: #FFEEF6;
+}
+
+.container-5 {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    background: #FFEEF6;
+
+}
+
+.container-6 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background: #FFEEF6;
+
+}
