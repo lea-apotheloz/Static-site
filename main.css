@@ -534,3 +534,114 @@ mark {
     background: #FFEEF6;
 
 }
+
+/* Testimonial*/
+.testimonial {
+    height: 1280px;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.headling {
+    height: 128px;
+    width: 369px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-testimonial {
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.text-testimonial {
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+.frame-2 {
+    margin-top: 100px;
+    height: 672px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.case {
+    width: 412px;
+    height: 555px;
+    padding: 60px 40px;
+    gap: 46px;
+    border-radius: 150px;
+
+    border: 1px solid #949494;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-testimonial {
+    height: 340px;
+    width: 253px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.my-experience {
+    width: 253px;
+    height: 115px;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.samantha-kate {
+    width: 135px;
+    height: 23px;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+
+}
+
+.CEO {
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    
+}
+.case:hover {
+    box-shadow: 0px 20px 40px 5px #00000026;
+    transform: scale(1.1);
+  }
+  .icon{
+    width: 1620px;
+    margin-top: 100px;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  
