@@ -651,7 +651,7 @@ mark {
 /* contact us */
 .contact {
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
     padding: 100px 150px;
 }
 
@@ -669,7 +669,7 @@ mark {
     font-size: 54px;
     font-weight: 700;
     line-height: 72px;
-   
+
 }
 
 .title-contact::before {
@@ -706,13 +706,14 @@ select {
     text-align: left;
 }
 
-.message{
+.message {
     display: block;
     font-weight: 400px;
     font-size: 18px;
     line-height: 23px;
 }
-.message-plate{
+
+.message-plate {
     height: 200px;
     width: 656px;
     border-radius: 10px;
@@ -720,29 +721,31 @@ select {
     border: 1px solid #020E35;
     margin-bottom: 40px;
 }
+
 /*newsletters*/
-.newsletter{
-    height: 870px;
+.newsletter {
+
     display: flex;
     justify-content: space-between;
     padding: 100px 150px;
 }
 
-.block-coffee{
+.block-coffee {
     width: 656px;
     height: 621px;
     gap: 100px;
 }
 
-.title-coffee{
+.title-coffee {
     width: 609px;
-height: 144px;
-font-family: Merriweather;
-font-size: 54px;
-font-weight: 700;
-line-height: 72px;
-text-align: left;
+    height: 144px;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
 }
+
 .title-coffee::before {
     content: "";
     position: absolute;
@@ -753,7 +756,175 @@ text-align: left;
     margin-top: 109px;
     margin-left: 153px;
 }
-.img.contact-us{
+
+.img.contact-us {
     width: 780px;
     height: 670px;
+}
+
+/* footer*/
+.footer {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.info {
+    height: 269px;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+    display: flex;
+}
+
+.frame-3 {
+    width: 409.8px;
+    height: 269px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adresse {
+    height: 112px;
+    width: 148px;
+
+}
+
+.add {
+    width: 65px;
+    height: 20px;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.telephone {
+    width: 105px;
+    height: 20px;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+
+}
+
+.addres {
+    width: 148px;
+    height: 40px;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.services {
+    width: 194px;
+    height: 229px;
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.theme {
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.text-footer {
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.company {
+    width: 154px;
+    height: 161px;
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us {
+    width: 110px;
+    height: 127px;
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.legal-stuff {
+    width: 138px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.terms {
+    padding: 32px 150px 32px 150px;
+    justify-content: space-between;
+    background: #020E35;
+    display: flex;
+}
+
+.text-bas-footer {
+
+    height: 18px;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-right {
+    width: 250px;
+    height: 18px;
+    gap: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy {
+    height: 18px;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.cercle-footer {
+    position: absolute;
+    top: 10127px;
+    left: 0%;
+    z-index: -1;
+}
+
+.footer-c {
+    position: absolute;
+    top: 10157px;
+    right: 0%;
+    z-index: -1;
 }
