@@ -650,7 +650,8 @@ mark {
 
 /* contact us */
 .contact {
-  
+    display: flex;
+  justify-content: space-between;
     padding: 100px 150px;
 }
 
@@ -658,14 +659,6 @@ mark {
     width: 656px;
     height: 904px;
     gap: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    float: right;
- position: fixed;
-    top: 8270px;
-    right: 150px;
-
 
 }
 
@@ -711,6 +704,56 @@ select {
     font-weight: 400;
     line-height: 23px;
     text-align: left;
-   
-    
+}
+
+.message{
+    display: block;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 23px;
+}
+.message-plate{
+    height: 200px;
+    width: 656px;
+    border-radius: 10px;
+    background: #FFEEF6;
+    border: 1px solid #020E35;
+    margin-bottom: 40px;
+}
+/*newsletters*/
+.newsletter{
+    height: 870px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+}
+
+.block-coffee{
+    width: 656px;
+    height: 621px;
+    gap: 100px;
+}
+
+.title-coffee{
+    width: 609px;
+height: 144px;
+font-family: Merriweather;
+font-size: 54px;
+font-weight: 700;
+line-height: 72px;
+text-align: left;
+}
+.title-coffee::before {
+    content: "";
+    position: absolute;
+    width: 435px;
+    height: 35px;
+    z-index: -1;
+    background-color: #FF5678;
+    margin-top: 109px;
+    margin-left: 153px;
+}
+.img.contact-us{
+    width: 780px;
+    height: 670px;
 }
